@@ -1,0 +1,16 @@
+{% extends "COLLEGE/base.html" %}
+{% load static %}
+{% block content %}
+
+<div>
+    <h1 id="geanrate">GENARATING COLLEGE LIST </h1>
+    <marquee behavior="scrool" direction="rtl">Check Your ALL COLLEGE List</marquee>
+    <hr>
+    <p>
+    <h3>SAVED YOUR DATA </h3>
+    </p>
+    <p>
+        <a href="{% url 'allcolleges' %}" id="button">BACK TO HOME</a>
+    </p>
+</div>
+{% endblock %}

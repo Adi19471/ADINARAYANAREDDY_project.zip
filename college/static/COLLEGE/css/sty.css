@@ -1,0 +1,128 @@
+body{
+    background-color:#491543;
+    font-size: 15px;
+
+}
+/* heading information  */
+.university{
+    text-align: center;
+    color: #2fecec;
+    background-color:#56437e;
+    /* width: 400px; */
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* college data  */
+#geanrate{
+    color: #ECF014;
+    text-shadow: 1px 1px #E4D6FA;
+    font-size: 32px;
+    background-color:#8F8FFF;
+    text-align: center;
+    margin-top: -20px;
+}
+
+marquee{
+    color: #D4D4D4;
+    border: 3px solid #9EE0D5
+    caption-side: top;
+    background-color: bisque;
+    text-shadow: 1px 2px silver;
+    
+    
+}
+/* navbar link create  */
+ul{
+    display: inline;
+    /* background-color: black; */
+}
+
+ol,li{
+   display: block;
+   float: left;
+   margin: 10px;
+   color: #2D561A;
+   font-size:x-large;
+  margin-right: 23px;
+   
+
+}
+#button{
+    border: 3px dashed #1DE4E7;
+}
+/* navbar undier links work */
+.a-diff{
+    font-size: 15px;
+    font-weight: 800;
+    color: #63F890;
+    background-color: #96DFE4
+    border: 2px ridge rgb(10, 10, 8);
+    text-shadow: #12c012;
+    text-align: center;
+
+}
+a:hover{
+    background-color: rgb(177, 9, 177);
+    font-weight: bolder;
+    text-shadow: chocolate;
+    color: lightyellow;
+}
+
+table{
+    background-color:#c8c8f5;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-variant: small-caps;
+    /* border: 1px solid black; */
+    padding: auto;
+    min-width: fit-content;
+    width: 100%;
+    padding: 0px 0px;
+    margin: auto 0px;
+    
+   
+}
+ul{
+
+}
+th{
+    color: rgb(183, 240, 237);
+    background-color:#4F62F8;
+    font-weight: 800;
+    text-overflow: inherit;
+    text-shadow: 2px 1px #424242;
+    border: 1px solid black;
+}
+td:hover{
+    color: rgb(43, 124, 190);
+    background-color: #82D477;
+    border: 2px ridge #28F6DE;
+    font-size: 15px;
+    font-family: cursive;
+
+
+}
+td{
+    border: 1px solid #FFFFFF
+}
+
+/* footer part-3 */
+
+footer{
+    background-color: #c3d42a;
+    text-align: center;
+    border: 3px solid ;
+   
+   
+   
+}
+.foot,a{
+   
+    margin: 3px 2px;
+    color: #08504f;
+    font-size: 20px;
+    text-transform: capitalize;
+}

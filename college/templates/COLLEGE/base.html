@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'COLLEGE\css\sty.css' %}">
+  <title>ASSIGNMENT TASK-FAKE INFORMATION</title>
+</head>
+
+<body>
+  <header>
+    <h4 class="university">FAKE UNIVERSITY INFORMATION DATA </h4>
+    <hr>
+    <ul>
+      <ol>
+
+        <li> <a class="a-diff" href="{% url 'college' %}">NEW-COLLEGE ADD</a></li>
+        <li><a class="a-diff"  href="{% url 'allcolleges' %}">ALL-COLLEGES</a></li>
+        <li><a class="a-diff" href="{% url 'vsu' %}">VSU-UNIVERSITY</a></li>
+        <li><a class="a-diff" href="{% url 'yvu' %}">YV-UNIVERSITY</a></li>
+        <li><a class="a-diff" href="{% url 'svu' %}">SV-UNIVERSITY</a></li>
+        <li><a class="a-diff" href="{% url 'mhu' %}">M-UNIVERSITY</a></li>
+        <li><a class="a-diff" href="{% url 'du' %}">D-UNIVERSITY</a></li>
+      </ol>
+    </ul>
+  </header>
+
+
+
+  {% block content %}
+
+
+
+  {% endblock %}
+
+<br>
+<hr>
+  <footer>
+    <div class="foot">
+      <a href="">&Copy @right,</a>
+      <a href="">Home Terms & Condition Hyperlinks,</a>
+      <a href="">Policy Privacy</a>
+      <a href="">Contact Us</a>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
